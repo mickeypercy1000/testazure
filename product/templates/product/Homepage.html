@@ -1,0 +1,14 @@
+{% extends 'product/Base.html' %}
+  {% block content %}
+
+<div class="container-sm mt-5 text-center">
+    <div class="jumbotron mt-5">
+        <h1 class="display-4">Hello, Wingipay!</h1>
+        <p class="lead">This is a simple page to test out a few setups.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'add-product' %}" role="button">Add Product</a>
+      </div>
+    </div>
+
+{% endblock %}
