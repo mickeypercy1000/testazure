@@ -80,9 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':'PracticeDB',
-        'USER': 'postgres',
+        'USER': 'wingipay@wingidb',
         'PASSWORD': 'Enigma.100',
-        'HOST': 'localhost',
+        'HOST': 'wingidb.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
