@@ -3,6 +3,6 @@ from product.views import AddProductView, HomepageView
 
 urlpatterns = [
     path('', HomepageView, name = 'home'),
-    path('add-products', AddProductView, name = 'add-products'),
+    path('add-product', AddProductView, name = 'add-product'),
 
 ]
